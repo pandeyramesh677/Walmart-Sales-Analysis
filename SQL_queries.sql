@@ -263,6 +263,7 @@ ORDER BY gender_cnt DESC;
 -- Gender per branch is more or less the same hence, I don't think has
 -- an effect of the sales per branch and other factors.
 
+
 -- Which time of the day do customers give most ratings?
 SELECT
 	time_of_day,
