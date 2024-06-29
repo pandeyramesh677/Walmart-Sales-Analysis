@@ -68,15 +68,13 @@ SET day_name = DAYNAME(date);
 
 
 -- Add month_name column
-SELECT
-	date,
-	MONTHNAME(date)
-FROM sales;
+ALTER TABLE sales ADD month_name VARCHAR(10);
 
-ALTER TABLE sales ADD COLUMN month_name VARCHAR(10);
-
+-- Update the month_name column with the month name
 UPDATE sales
-SET month_name = MONTHNAME(date);
+SET month_name = FORMAT(Date, 'MMMM');
+
+SELECT month_name FROM sales
 
 -- --------------------------------------------------------------------
 -- ---------------------------- Generic ------------------------------
