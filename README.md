@@ -2,13 +2,28 @@
 
 ## About
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
+Walmart operates 45 stores across various regions, each containing multiple departments. The challenge lies in maximizing sales and operational efficiency by leveraging historical sales data and understanding customer behavior patterns. This data includes information on sales transactions, product lines, customer demographics, and seasonal influences such as holiday markdown events.
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+## Problem Statement
+Using historical sales data from Walmart's 45 stores, the objective is to analyze and derive actionable insights to optimize retail operations. Key areas of focus include identifying top-selling product lines, understanding customer preferences by demographic segments, optimizing pricing and markdown strategies, and improving overall customer satisfaction based on ratings and feedback.
 
 ## Purposes Of The Project
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+Sales Analysis: Analyze sales performance across different stores, departments, and product lines to identify top-performing and underperforming areas.
+
+Customer Segmentation: Segment customers based on demographics (gender, customer type) to understand buying behavior and preferences.
+
+Markdown Strategy: Evaluate the impact of holiday markdown events on sales and profitability. Identify optimal timing, depth, and duration of markdowns to maximize revenue and minimize costs.
+
+Operational Efficiency: Identify opportunities to enhance operational efficiency, such as optimizing inventory management based on sales trends and improving customer service strategies.
+
+## Data Provided:
+
+Sales Data: Includes transaction details such as invoice ID, branch location, product details (product line, unit price, quantity), tax information, and total sales.
+
+Customer Data: Demographic information (customer type, gender) and payment details (payment method).
+
+Seasonal Data: Details of holiday markdown events, including timing and duration.
 
 ## About Data
 
