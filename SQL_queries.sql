@@ -280,7 +280,7 @@ SELECT
 	time_of_day,
 	AVG(rating) AS avg_rating
 FROM sales
-WHERE branch = "A"
+WHERE branch = 'A'
 GROUP BY time_of_day
 ORDER BY avg_rating DESC;
 -- Branch A and C are doing well in ratings, branch B needs to do a 
