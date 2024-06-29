@@ -304,7 +304,7 @@ SELECT
 	day_name,
 	COUNT(day_name) total_sales
 FROM sales
-WHERE branch = "C"
+WHERE branch = 'C'
 GROUP BY day_name
 ORDER BY total_sales DESC;
 
