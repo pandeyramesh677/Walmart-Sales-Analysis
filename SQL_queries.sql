@@ -257,7 +257,7 @@ SELECT
 	gender,
 	COUNT(*) as gender_cnt
 FROM sales
-WHERE branch = "C"
+WHERE branch = 'C'
 GROUP BY gender
 ORDER BY gender_cnt DESC;
 -- Gender per branch is more or less the same hence, I don't think has
