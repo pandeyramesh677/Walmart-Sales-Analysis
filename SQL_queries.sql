@@ -155,7 +155,7 @@ ORDER BY total_revenue;
 -- What product line had the largest VAT?
 SELECT
 	product_line,
-	AVG(tax_pct) as avg_tax
+	AVG(Tax_5) as avg_tax
 FROM sales
 GROUP BY product_line
 ORDER BY avg_tax DESC;
